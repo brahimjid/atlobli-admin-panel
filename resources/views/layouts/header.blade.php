@@ -1,8 +1,8 @@
 <div class="navbar-header">
     <a class="navbar-brand" href="<?php echo URL::to('/'); ?>">
         <b>
-            <img src="{{ asset('/images/logo_web.png') }}" alt="homepage" class="dark-logo" width="100%" id="logo_web">
-            <img src="{{ asset('images/logo-light-icon.png') }}" alt="homepage" class="light-logo">
+            <img src="{{ asset('/images/logo_web.png') }}"  style="height: 50px" alt="homepage" class="dark-logo" width="100%" id="logo_web">
+            <img src="{{ asset('images/logo_web.png') }}" style="height: 50px" alt="homepage" class="light-logo">
         </b>
         <span>
         </span>
@@ -29,13 +29,13 @@
     </div>
     <ul class="navbar-nav my-lg-0 border-left pl-2 ml-2">
         <li class="nav-item dropdown">
-           <div class="d-flex align-items-center dropdown-toggle text-muted waves-effect waves-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+           <div class="d-flex align-items-center dropdown-toggle text-muted waves-effect waves-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <a class="nav-link " href="">
                <img src="{{ asset('/images/users/user-new.png') }}" alt="user" class="profile-pic"></a>
                <div class="nav-item-user">
                 <h5 class="text-dark mb-0">{{  Auth::user()->name }}</h5>
                 <p class="mb-0">admin@atlobli.com</p>
-               </div>  
+               </div>
              </div>
             <div class="dropdown-menu dropdown-menu-right scale-up">
                 <ul class="dropdown-user">
