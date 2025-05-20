@@ -632,18 +632,27 @@
                 amount = parseFloat(amount).toFixed(decimal_degits);
             }
             if ((val.hasOwnProperty('isTopUp') && val.isTopUp) || (val.payment_method == "Cancelled Order Payment")) {
+                if (val.is_mr){
+                    currentCurrency = 'MRU';
+                    currencyAtRight =true;
+                }
                 if (currencyAtRight) {
                     html.push('<span class="text-green">' + parseFloat(amount).toFixed(decimal_degits) + '' + currentCurrency + '</span>');
                 } else {
                     html.push('<span class="text-green">' + currentCurrency + '' + parseFloat(amount).toFixed(decimal_degits) + '</span>');
                 }
-            } else if (val.hasOwnProperty('isTopUp') && !val.isTopUp) {
+            }
+            else if (val.hasOwnProperty('isTopUp') && !val.isTopUp) {
                 if (currencyAtRight) {
                     html.push('<span class="text-red">(-' + parseFloat(amount).toFixed(decimal_degits) + '' + currentCurrency + ')</span>');
                 } else {
                     html.push('<span class="text-red">(-' + currentCurrency + '' + parseFloat(amount).toFixed(decimal_degits) + ')</span>');
                 }
             } else {
+                if (val.is_mr){
+                    currentCurrency = 'MRU ';
+                     currencyAtRight =true;
+                }
                 if (currencyAtRight) {
                     html.push('<span class="">' + parseFloat(amount).toFixed(decimal_degits) + '' + currentCurrency + '</span>');
                 } else {
@@ -756,9 +765,9 @@
             // }
             if (val.image) {
                 var image = val.image;
-                
+
                 if (image != undefined && image != '' && image != null) {
-                //    html.push(`<img alt="image" src="${image}" class="img-fluid" style="width: 50px; height: 50px;">`); 
+                //    html.push(`<img alt="image" src="${image}" class="img-fluid" style="width: 50px; height: 50px;">`);
                    html.push(`<a href='${image}' data-fancybox data-caption='Image'><img alt='image' class='rounded-circle img-thumbnail' style='width: 50px !important;height: 50px !important;' src='${image}' ></a>`);
                 } else {
                     html.push('<span class="text-danger">No Image</span>');
