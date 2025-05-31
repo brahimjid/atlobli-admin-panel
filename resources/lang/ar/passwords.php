@@ -4,19 +4,19 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Password Reset Language Lines
+    | رسائل إعادة تعيين كلمة المرور
     |--------------------------------------------------------------------------
     |
-    | The following language lines are the default lines which match reasons
-    | that are given by the password broker for a password update attempt
-    | has failed, such as for an invalid token or invalid new password.
+    | السطور التالية هي الرسائل الافتراضية التي تتطابق مع الأسباب
+    | التي يقدمها وسيط كلمة المرور عند فشل محاولة تحديث كلمة المرور،
+    | مثل رمز غير صالح أو كلمة مرور جديدة غير صالحة.
     |
     */
 
-    'reset' => 'Your password has been reset!',
-    'sent' => 'We have emailed your password reset link!',
-    'throttled' => 'Please wait before retrying.',
-    'token' => 'This password reset token is invalid.',
-    'user' => "We can't find a user with that email address.",
+    'reset' => 'تم إعادة تعيين كلمة المرور بنجاح!',
+    'sent' => 'لقد أرسلنا رابط إعادة تعيين كلمة المرور إلى بريدك الإلكتروني!',
+    'throttled' => 'الرجاء الانتظار قبل إعادة المحاولة.',
+    'token' => 'رمز إعادة تعيين كلمة المرور هذا غير صالح.',
+    'user' => "لا يمكننا العثور على مستخدم بهذا العنوان الإلكتروني.",
 
 ];

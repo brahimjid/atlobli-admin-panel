@@ -4,157 +4,157 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Validation Language Lines
+    | رسائل التحقق
     |--------------------------------------------------------------------------
     |
-    | The following language lines contain the default error messages used by
-    | the validator class. Some of these rules have multiple versions such
-    | as the size rules. Feel free to tweak each of these messages here.
+    | السطور التالية تحتوي على رسائل الخطأ الافتراضية المستخدمة
+    | بواسطة فئة التحقق. بعض هذه القواعد لها إصدارات متعددة
+    | مثل قواعد الحجم. لا تتردد في تعديل هذه الرسائل.
     |
     */
 
-    'accepted' => 'The :attribute must be accepted.',
-    'accepted_if' => 'The :attribute must be accepted when :other is :value.',
-    'active_url' => 'The :attribute is not a valid URL.',
-    'after' => 'The :attribute must be a date after :date.',
-    'after_or_equal' => 'The :attribute must be a date after or equal to :date.',
-    'alpha' => 'The :attribute must only contain letters.',
-    'alpha_dash' => 'The :attribute must only contain letters, numbers, dashes and underscores.',
-    'alpha_num' => 'The :attribute must only contain letters and numbers.',
-    'array' => 'The :attribute must be an array.',
-    'before' => 'The :attribute must be a date before :date.',
-    'before_or_equal' => 'The :attribute must be a date before or equal to :date.',
+    'accepted' => 'يجب قبول الحقل :attribute.',
+    'accepted_if' => 'يجب قبول الحقل :attribute عندما يكون :other يساوي :value.',
+    'active_url' => 'الحقل :attribute ليس عنوان URL صالحًا.',
+    'after' => 'يجب أن يكون الحقل :attribute تاريخًا بعد :date.',
+    'after_or_equal' => 'يجب أن يكون الحقل :attribute تاريخًا بعد أو يساوي :date.',
+    'alpha' => 'يجب أن يحتوي الحقل :attribute على أحرف فقط.',
+    'alpha_dash' => 'يجب أن يحتوي الحقل :attribute على أحرف وأرقام وشرطات فقط.',
+    'alpha_num' => 'يجب أن يحتوي الحقل :attribute على أحرف وأرقام فقط.',
+    'array' => 'يجب أن يكون الحقل :attribute مصفوفة.',
+    'before' => 'يجب أن يكون الحقل :attribute تاريخًا قبل :date.',
+    'before_or_equal' => 'يجب أن يكون الحقل :attribute تاريخًا قبل أو يساوي :date.',
     'between' => [
-        'numeric' => 'The :attribute must be between :min and :max.',
-        'file' => 'The :attribute must be between :min and :max kilobytes.',
-        'string' => 'The :attribute must be between :min and :max characters.',
-        'array' => 'The :attribute must have between :min and :max items.',
+        'numeric' => 'يجب أن يكون الحقل :attribute بين :min و :max.',
+        'file' => 'يجب أن يكون الحقل :attribute بين :min و :max كيلوبايت.',
+        'string' => 'يجب أن يكون الحقل :attribute بين :min و :max حرفًا.',
+        'array' => 'يجب أن يحتوي الحقل :attribute بين :min و :max عنصرًا.',
     ],
-    'boolean' => 'The :attribute field must be true or false.',
-    'confirmed' => 'The :attribute confirmation does not match.',
-    'current_password' => 'The password is incorrect.',
-    'date' => 'The :attribute is not a valid date.',
-    'date_equals' => 'The :attribute must be a date equal to :date.',
-    'date_format' => 'The :attribute does not match the format :format.',
-    'declined' => 'The :attribute must be declined.',
-    'declined_if' => 'The :attribute must be declined when :other is :value.',
-    'different' => 'The :attribute and :other must be different.',
-    'digits' => 'The :attribute must be :digits digits.',
-    'digits_between' => 'The :attribute must be between :min and :max digits.',
-    'dimensions' => 'The :attribute has invalid image dimensions.',
-    'distinct' => 'The :attribute field has a duplicate value.',
-    'email' => 'The :attribute must be a valid email address.',
-    'ends_with' => 'The :attribute must end with one of the following: :values.',
-    'enum' => 'The selected :attribute is invalid.',
-    'exists' => 'The selected :attribute is invalid.',
-    'file' => 'The :attribute must be a file.',
-    'filled' => 'The :attribute field must have a value.',
+    'boolean' => 'يجب أن يكون الحقل :attribute صحيحًا أو خاطئًا.',
+    'confirmed' => 'تأكيد الحقل :attribute غير متطابق.',
+    'current_password' => 'كلمة المرور غير صحيحة.',
+    'date' => 'الحقل :attribute ليس تاريخًا صالحًا.',
+    'date_equals' => 'يجب أن يكون الحقل :attribute تاريخًا يساوي :date.',
+    'date_format' => 'الحقل :attribute لا يتطابق مع الصيغة :format.',
+    'declined' => 'يجب رفض الحقل :attribute.',
+    'declined_if' => 'يجب رفض الحقل :attribute عندما يكون :other يساوي :value.',
+    'different' => 'يجب أن يكون الحقلان :attribute و :other مختلفين.',
+    'digits' => 'يجب أن يحتوي الحقل :attribute على :digits أرقام.',
+    'digits_between' => 'يجب أن يحتوي الحقل :attribute بين :min و :max أرقام.',
+    'dimensions' => 'الحقل :attribute يحتوي على أبعاد صورة غير صالحة.',
+    'distinct' => 'الحقل :attribute يحتوي على قيمة مكررة.',
+    'email' => 'يجب أن يكون الحقل :attribute عنوان بريد إلكتروني صالحًا.',
+    'ends_with' => 'يجب أن ينتهي الحقل :attribute بأحد القيم التالية: :values.',
+    'enum' => 'القيمة المحددة للحقل :attribute غير صالحة.',
+    'exists' => 'القيمة المحددة للحقل :attribute غير صالحة.',
+    'file' => 'يجب أن يكون الحقل :attribute ملفًا.',
+    'filled' => 'يجب أن يحتوي الحقل :attribute على قيمة.',
     'gt' => [
-        'numeric' => 'The :attribute must be greater than :value.',
-        'file' => 'The :attribute must be greater than :value kilobytes.',
-        'string' => 'The :attribute must be greater than :value characters.',
-        'array' => 'The :attribute must have more than :value items.',
+        'numeric' => 'يجب أن يكون الحقل :attribute أكبر من :value.',
+        'file' => 'يجب أن يكون الحقل :attribute أكبر من :value كيلوبايت.',
+        'string' => 'يجب أن يكون الحقل :attribute أكبر من :value حرفًا.',
+        'array' => 'يجب أن يحتوي الحقل :attribute على أكثر من :value عنصرًا.',
     ],
     'gte' => [
-        'numeric' => 'The :attribute must be greater than or equal to :value.',
-        'file' => 'The :attribute must be greater than or equal to :value kilobytes.',
-        'string' => 'The :attribute must be greater than or equal to :value characters.',
-        'array' => 'The :attribute must have :value items or more.',
+        'numeric' => 'يجب أن يكون الحقل :attribute أكبر من أو يساوي :value.',
+        'file' => 'يجب أن يكون الحقل :attribute أكبر من أو يساوي :value كيلوبايت.',
+        'string' => 'يجب أن يكون الحقل :attribute أكبر من أو يساوي :value حرفًا.',
+        'array' => 'يجب أن يحتوي الحقل :attribute على :value عنصر أو أكثر.',
     ],
-    'image' => 'The :attribute must be an image.',
-    'in' => 'The selected :attribute is invalid.',
-    'in_array' => 'The :attribute field does not exist in :other.',
-    'integer' => 'The :attribute must be an integer.',
-    'ip' => 'The :attribute must be a valid IP address.',
-    'ipv4' => 'The :attribute must be a valid IPv4 address.',
-    'ipv6' => 'The :attribute must be a valid IPv6 address.',
-    'json' => 'The :attribute must be a valid JSON string.',
+    'image' => 'يجب أن يكون الحقل :attribute صورة.',
+    'in' => 'القيمة المحددة للحقل :attribute غير صالحة.',
+    'in_array' => 'الحقل :attribute غير موجود في :other.',
+    'integer' => 'يجب أن يكون الحقل :attribute عددًا صحيحًا.',
+    'ip' => 'يجب أن يكون الحقل :attribute عنوان IP صالحًا.',
+    'ipv4' => 'يجب أن يكون الحقل :attribute عنوان IPv4 صالحًا.',
+    'ipv6' => 'يجب أن يكون الحقل :attribute عنوان IPv6 صالحًا.',
+    'json' => 'يجب أن يكون الحقل :attribute سلسلة JSON صالحة.',
     'lt' => [
-        'numeric' => 'The :attribute must be less than :value.',
-        'file' => 'The :attribute must be less than :value kilobytes.',
-        'string' => 'The :attribute must be less than :value characters.',
-        'array' => 'The :attribute must have less than :value items.',
+        'numeric' => 'يجب أن يكون الحقل :attribute أقل من :value.',
+        'file' => 'يجب أن يكون الحقل :attribute أقل من :value كيلوبايت.',
+        'string' => 'يجب أن يكون الحقل :attribute أقل من :value حرفًا.',
+        'array' => 'يجب أن يحتوي الحقل :attribute على أقل من :value عنصرًا.',
     ],
     'lte' => [
-        'numeric' => 'The :attribute must be less than or equal to :value.',
-        'file' => 'The :attribute must be less than or equal to :value kilobytes.',
-        'string' => 'The :attribute must be less than or equal to :value characters.',
-        'array' => 'The :attribute must not have more than :value items.',
+        'numeric' => 'يجب أن يكون الحقل :attribute أقل من أو يساوي :value.',
+        'file' => 'يجب أن يكون الحقل :attribute أقل من أو يساوي :value كيلوبايت.',
+        'string' => 'يجب أن يكون الحقل :attribute أقل من أو يساوي :value حرفًا.',
+        'array' => 'يجب ألا يحتوي الحقل :attribute على أكثر من :value عنصرًا.',
     ],
-    'mac_address' => 'The :attribute must be a valid MAC address.',
+    'mac_address' => 'يجب أن يكون الحقل :attribute عنوان MAC صالحًا.',
     'max' => [
-        'numeric' => 'The :attribute must not be greater than :max.',
-        'file' => 'The :attribute must not be greater than :max kilobytes.',
-        'string' => 'The :attribute must not be greater than :max characters.',
-        'array' => 'The :attribute must not have more than :max items.',
+        'numeric' => 'يجب ألا يزيد الحقل :attribute عن :max.',
+        'file' => 'يجب ألا يزيد الحقل :attribute عن :max كيلوبايت.',
+        'string' => 'يجب ألا يزيد الحقل :attribute عن :max حرفًا.',
+        'array' => 'يجب ألا يحتوي الحقل :attribute على أكثر من :max عنصرًا.',
     ],
-    'mimes' => 'The :attribute must be a file of type: :values.',
-    'mimetypes' => 'The :attribute must be a file of type: :values.',
+    'mimes' => 'يجب أن يكون الحقل :attribute ملفًا من النوع: :values.',
+    'mimetypes' => 'يجب أن يكون الحقل :attribute ملفًا من النوع: :values.',
     'min' => [
-        'numeric' => 'The :attribute must be at least :min.',
-        'file' => 'The :attribute must be at least :min kilobytes.',
-        'string' => 'The :attribute must be at least :min characters.',
-        'array' => 'The :attribute must have at least :min items.',
+        'numeric' => 'يجب أن يكون الحقل :attribute على الأقل :min.',
+        'file' => 'يجب أن يكون الحقل :attribute على الأقل :min كيلوبايت.',
+        'string' => 'يجب أن يكون الحقل :attribute على الأقل :min حرفًا.',
+        'array' => 'يجب أن يحتوي الحقل :attribute على الأقل :min عنصرًا.',
     ],
-    'multiple_of' => 'The :attribute must be a multiple of :value.',
-    'not_in' => 'The selected :attribute is invalid.',
-    'not_regex' => 'The :attribute format is invalid.',
-    'numeric' => 'The :attribute must be a number.',
-    'password' => 'The password is incorrect.',
-    'present' => 'The :attribute field must be present.',
-    'prohibited' => 'The :attribute field is prohibited.',
-    'prohibited_if' => 'The :attribute field is prohibited when :other is :value.',
-    'prohibited_unless' => 'The :attribute field is prohibited unless :other is in :values.',
-    'prohibits' => 'The :attribute field prohibits :other from being present.',
-    'regex' => 'The :attribute format is invalid.',
-    'required' => 'The :attribute field is required.',
-    'required_array_keys' => 'The :attribute field must contain entries for: :values.',
-    'required_if' => 'The :attribute field is required when :other is :value.',
-    'required_unless' => 'The :attribute field is required unless :other is in :values.',
-    'required_with' => 'The :attribute field is required when :values is present.',
-    'required_with_all' => 'The :attribute field is required when :values are present.',
-    'required_without' => 'The :attribute field is required when :values is not present.',
-    'required_without_all' => 'The :attribute field is required when none of :values are present.',
-    'same' => 'The :attribute and :other must match.',
+    'multiple_of' => 'يجب أن يكون الحقل :attribute مضاعفًا لـ :value.',
+    'not_in' => 'القيمة المحددة للحقل :attribute غير صالحة.',
+    'not_regex' => 'صيغة الحقل :attribute غير صالحة.',
+    'numeric' => 'يجب أن يكون الحقل :attribute رقمًا.',
+    'password' => 'كلمة المرور غير صحيحة.',
+    'present' => 'يجب أن يكون الحقل :attribute موجودًا.',
+    'prohibited' => 'الحقل :attribute محظور.',
+    'prohibited_if' => 'الحقل :attribute محظور عندما يكون :other يساوي :value.',
+    'prohibited_unless' => 'الحقل :attribute محظور إلا إذا كان :other ضمن :values.',
+    'prohibits' => 'الحقل :attribute يحظر وجود :other.',
+    'regex' => 'صيغة الحقل :attribute غير صالحة.',
+    'required' => 'الحقل :attribute مطلوب.',
+    'required_array_keys' => 'يجب أن يحتوي الحقل :attribute على إدخالات لـ: :values.',
+    'required_if' => 'الحقل :attribute مطلوب عندما يكون :other يساوي :value.',
+    'required_unless' => 'الحقل :attribute مطلوب إلا إذا كان :other ضمن :values.',
+    'required_with' => 'الحقل :attribute مطلوب عند وجود :values.',
+    'required_with_all' => 'الحقل :attribute مطلوب عند وجود :values.',
+    'required_without' => 'الحقل :attribute مطلوب عند عدم وجود :values.',
+    'required_without_all' => 'الحقل :attribute مطلوب عند عدم وجود أي من :values.',
+    'same' => 'يجب أن يتطابق الحقلان :attribute و :other.',
     'size' => [
-        'numeric' => 'The :attribute must be :size.',
-        'file' => 'The :attribute must be :size kilobytes.',
-        'string' => 'The :attribute must be :size characters.',
-        'array' => 'The :attribute must contain :size items.',
+        'numeric' => 'يجب أن يكون الحقل :attribute مساويًا لـ :size.',
+        'file' => 'يجب أن يكون الحقل :attribute مساويًا لـ :size كيلوبايت.',
+        'string' => 'يجب أن يكون الحقل :attribute مساويًا لـ :size حرفًا.',
+        'array' => 'يجب أن يحتوي الحقل :attribute على :size عنصرًا.',
     ],
-    'starts_with' => 'The :attribute must start with one of the following: :values.',
-    'string' => 'The :attribute must be a string.',
-    'timezone' => 'The :attribute must be a valid timezone.',
-    'unique' => 'The :attribute has already been taken.',
-    'uploaded' => 'The :attribute failed to upload.',
-    'url' => 'The :attribute must be a valid URL.',
-    'uuid' => 'The :attribute must be a valid UUID.',
+    'starts_with' => 'يجب أن يبدأ الحقل :attribute بأحد القيم التالية: :values.',
+    'string' => 'يجب أن يكون الحقل :attribute سلسلة نصية.',
+    'timezone' => 'يجب أن يكون الحقل :attribute منطقة زمنية صالحة.',
+    'unique' => 'قيمة الحقل :attribute مستخدمة مسبقًا.',
+    'uploaded' => 'فشل تحميل الحقل :attribute.',
+    'url' => 'يجب أن يكون الحقل :attribute عنوان URL صالحًا.',
+    'uuid' => 'يجب أن يكون الحقل :attribute UUID صالحًا.',
 
     /*
     |--------------------------------------------------------------------------
-    | Custom Validation Language Lines
+    | رسائل التحقق المخصصة
     |--------------------------------------------------------------------------
     |
-    | Here you may specify custom validation messages for attributes using the
-    | convention "attribute.rule" to name the lines. This makes it quick to
-    | specify a specific custom language line for a given attribute rule.
+    | هنا يمكنك تحديد رسائل تحقق مخصصة للحقول باستخدام
+    | اصطلاح "attribute.rule". هذا يسمح بتحديد رسالة
+    | مخصصة لقاعدة تحقق محددة بسرعة.
     |
     */
 
     'custom' => [
         'attribute-name' => [
-            'rule-name' => 'custom-message',
+            'rule-name' => 'رسالة-مخصصة',
         ],
     ],
 
     /*
     |--------------------------------------------------------------------------
-    | Custom Validation Attributes
+    | أسماء الحقول المخصصة
     |--------------------------------------------------------------------------
     |
-    | The following language lines are used to swap our attribute placeholder
-    | with something more reader friendly such as "E-Mail Address" instead
-    | of "email". This simply helps us make our message more expressive.
+    | السطور التالية تستخدم لاستبدال النصوص البديلة للحقول
+    | بأسماء أكثر وضوحًا مثل "عنوان البريد الإلكتروني" بدلاً من
+    | "email". هذا يساعد على جعل الرسائل أكثر تعبيرًا.
     |
     */
 
